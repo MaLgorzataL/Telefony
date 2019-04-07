@@ -1,0 +1,25 @@
+body {
+    max-width: 1200;
+    min-width: 300;
+    background-color: lightsteelblue;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    margin-left: 15px; 
+}
+
+img {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+}
+
+div {
+    margin: 10%;
+}
