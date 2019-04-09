@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang='pl'>
+  <head>
+    <meta charset="UTF-8">
+    <title>Prezentacja wybranych modeli telefonów</title>
+    <meta name="viewport" 
+        content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="vendor/Normalize.css">
+    <link rel="stylesheet" type="text/css" href="sass/style.css">
+  </head>
+  <body>
+    <script id="phone-template" type="x-tmpl-mustache">
+      <div class="phone">
+          <h2>{{ brand }}</h2>
+          <img src={{image}}>
+          <button>Więcej informacji</button>
+      </div>
+  </script>
+    <h1>Dzisiaj w naszej ofercie:</h1>
+    <div id="phones" class="container"></div>
+    <p id="info"></p>
+
+    <script src="vendor/mustache.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
